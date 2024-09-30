@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             val genero = binding.generoEditText.text.toString()
             val morada = binding.moradaEditText.text.toString()
             val telefone = binding.telefoneEditText.text.toString()
+
                 val i = Intent(this, SecondActivity::class.java)
 
                 i.putExtra("name", name)

@@ -1,9 +1,7 @@
 package com.example.moradaapp
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.moradaapp.databinding.ActivityMainBinding
 import com.example.moradaapp.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
@@ -16,16 +14,14 @@ class SecondActivity : AppCompatActivity() {
         setContentView(binding.root)
 
             val i = intent
-            val name = i.extras?.getString("name")
+            val nome = i.extras?.getString("name")
             val email = i.extras?.getString("email")
             val genero = i.extras?.getString("genero")
             val morada = i.extras?.getString("morada")
             val telefone = i.extras?.getString("telefone")
-            //val i = Intent(this, SecondActivity::class.java)
 
-            binding.textNome.text = "O $name $email $genero $morada $telefone"
+            binding.mensagemTextView.text = "O $nome é do genero $genero e mora na $morada e tem o email $email e o telefone $telefone"
 
 
-            startActivity(i)
         }
     }
