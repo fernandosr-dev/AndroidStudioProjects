@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Conversor</string>
+    <string name="resultado_text">Valor em dólares: %1$.2f</string>
+</resources>
+
