@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Primeira App</string>
+    <string name="botao_ola">Olá</string>
 </resources>
