@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_avancar">Avanzar</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="nivel_de_bateria">Nivel de batería</string>
+</resources>
